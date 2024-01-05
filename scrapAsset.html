@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asset Management</title>
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+              sm: '480px',
+              md: '768px',
+              lg: '976px',
+              xl: '1440px'
+
+          }
+          extend: {
+            colors: {
+              clifford: '#da373d',
+              mainBlue: hsl(27, 86%, 43%),
+              lightBlue: '#00ceff',
+              lightGreen: '#99fe01',
+            }
+          }
+        }
+      }
+    </script>
+    <script
+      src="https://kit.fontawesome.com/c79dc33c4a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="wrapper container px-32 py-12 mx-auto text-center">
+      <div class="head bg-slate-200 py-12 relative">
+        <div class="">
+          <a href="/Asset Management/assetMaintenance.html">
+            <i
+              class="fa-solid fa-circle-arrow-left absolute left-0 top-0 h-10 w-20 border border-sky-900 bg-sky-900 rounded-md text-2xl text-white mt-3 ml-3 p-0.5"
+            ></i
+          ></a>
+        </div>
+        <h1 class="uppercase font-bold text-6xl text-sky-900">
+          New Life Computer Institute
+        </h1>
+        <p class="uppercase text-4xl pt-2">Add New Asset</p>
+      </div>
+
+      <div
+        class="inputsession bg-slate-200 border rounded-md border-slate-300 my-12 px-3"
+      >
+        <div
+          class="userdetails p-3 mt-3 mb-12 bg-slate-50 border rounded-md border-slate-300"
+        >
+          <p class="uppercase mb-2 font-bold text-2xl">
+            User Details <span class="text-red-500 font-normal">*</span>
+          </p>
+          <hr class="h-px mb-8 bg-slate-300 border-0 dark:bg-gray-700" />
+
+          <!-- FLEXBOX -->
+          <div class="userwrap flex flex-wrap justify-center gap-x-12 gap-y-4">
+            <!-- Name -->
+            <div class="username block uppercase font-bold text-left">
+              <label for="">Full Name</label>
+              <input
+                type="text"
+                id="Fullname"
+                class="block px-3 mb-3 block w-full border border-sky-400 text-sm rounded focus:ring-blue-500 focus:border-sky-400 py-3"
+              />
+            </div>
+            <!-- Email -->
+            <div class="useremail block uppercase font-bold text-left">
+              <label for="">Email Id</label>
+              <input
+                type="text"
+                id="Fullname"
+                class="block px-3 mb-3 block w-full border border-sky-400 text-sm rounded focus:ring-blue-500 focus:border-sky-400 py-3"
+              />
+            </div>
+            <!-- Zone -->
+            <div class="userzone">
+              <label
+                class="block block uppercase font-bold text-left"
+                for="grid-department"
+                >Zone</label
+              >
+              <select
+                class="px-3 mb-3 block w-full border border-sky-400 text-sm rounded focus:ring-blue-500 focus:border-sky-400 py-3"
+                id="department"
+              >
+                <option selected>Select your Zone</option>
+                <option class="font-semibold" value="Communication">
+                  North
+                </option>
+                <option class="font-semibold" value="translation">
+                  North West
+                </option>
+                <option class="font-semibold" value="SE">North East</option>
+                <option class="font-semibold" value="advancement">
+                  Central
+                </option>
+                <option class="font-semibold" value="finance">South</option>
+              </select>
+            </div>
+
+            <!-- Department -->
+            <div class="useremail block uppercase font-bold text-left">
+              <label for="">Department</label>
+              <input
+                type="text"
+                id="Fullname"
+                class="block px-3 mb-3 block w-full border border-sky-400 text-sm rounded focus:ring-blue-500 focus:border-sky-400 py-3"
+              />
+            </div>
+
+            <!-- Location -->
+
+            <div class="useremail block uppercase font-bold text-left">
+              <label for="">Location</label>
+              <input
+                type="text"
+                id="Fullname"
+                class="block px-3 mb-3 block w-full border border-sky-400 text-sm rounded focus:ring-blue-500 focus:border-sky-400 py-3"
+              />
+            </div>
+            <!-- Status -->
+            <div class="useremail text-left">
+              <label
+                class="block block uppercase font-bold text-left"
+                for="grid-department"
+                >Status</label
+              >
+              <select
+                class="px-3 mb-3 block w-full border border-sky-400 text-sm rounded focus:ring-blue-500 focus:border-sky-400 py-3"
+                id="department"
+              >
+                <option selected>Select the Status</option>
+                <option class="font-semibold" value="Communication">
+                  Using
+                </option>
+                <option class="font-semibold" value="translation">
+                  Transfered
+                </option>
+                <option class="font-semibold" value="SE">Scrapped</option>
+              </select>
+            </div>
+
+            <!-- Host name -->
+
+            <div class="useremail block uppercase font-bold text-left">
+              <label for="">Host Name</label>
+              <input
+                type="text"
+                id="Fullname"
+                class="block px-3 mb-3 block w-full border border-sky-400 text-sm rounded focus:ring-blue-500 focus:border-sky-400 py-3"
+              />
+            </div>
+
+            <!-- Owner -->
+
+            <div class="useremail block uppercase font-bold text-left">
+              <label for="">Owner</label>
+              <input
+                type="text"
+                id="Fullname"
+                class="block px-3 mb-3 block w-full border border-sky-400 text-sm rounded focus:ring-blue-500 focus:border-sky-400 py-3"
+              />
+            </div>
+
+            <!-- Custodian -->
+
+            <div class="useremail block uppercase font-bold text-left">
+              <label for="">Custodian</label>
+              <input
+                type="text"
+                id="Fullname"
+                class="block px-3 mb-3 block w-full border border-sky-400 text-sm rounded focus:ring-blue-500 focus:border-sky-400 py-3"
+              />
+            </div>
+
+            <!-- Current User -->
+
+            <div class="useremail block uppercase font-bold text-left">
+              <label for="">Current User</label>
+              <input
+                type="text"
+                id="Fullname"
+                class="block px-3 mb-3 block w-full border border-sky-400 text-sm rounded focus:ring-blue-500 focus:border-sky-400 py-3"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="assetdetails p-3 my-3 bg-slate-50 border rounded-md border-slate-300"
+        >
+          <p class="uppercase mb-2 font-bold text-2xl">
+            Asset Details <span class="text-red-500 font-normal">*</span>
+          </p>
+          <hr class="h-px mb-8 bg-slate-300 border-0" />
+          <div class="inputasset"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
