@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #232323;
+  text-rendering: optimizeLegibility;
+  font-family: "Open Sans", sans-serif;
+}
+
+.course-requirements {
+  padding: 2% 20%;
+}
+
+.application-form {
+  padding: 5% 20%;
+  background-color: #d4d4d4;
+}
+
+.application-box {
+  background-color: #ffffff;
+  padding: 5%;
+  box-sizing: border-box;
+}
+
+.online-application {
+  margin-bottom: 2%;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.application-logo img {
+  width: 15%;
+  margin-left: 43%;
+}
+
+.application-box h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 0%;
+}
+.head-2 {
+  margin: 0% 0%;
+  font-size: 1.5rem;
+}
+
+.application-note {
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5%;
+}
+
+.short-text-box {
+  margin: 0% 0% 2% 0%;
+}
+
+input[type="text-age"] {
+  padding: 1.25% 1.5%;
+  margin-left: 1.5%;
+  width: 10%;
+  font-family: "Open Sans", sans-serif;
+}
+
+input[type="checkbox"] {
+  padding: 1.25% 1.5%;
+  margin-left: 1.5%;
+  font-family: "Open Sans", sans-serif;
+}
